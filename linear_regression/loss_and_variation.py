@@ -36,6 +36,7 @@ df = pd.DataFrame(
     }
 )
 
+print(df, end="\n\n")
 print("Fitted line: y_hat = {:.4f} + {:.4f} * x".format(b0, b1))
 print("y_bar (mean of y): {:.4f}".format(y_bar))
 print()
